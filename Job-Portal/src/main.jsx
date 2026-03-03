@@ -13,6 +13,9 @@ import Hrlogin from './hrlogin.jsx'
 import Hrsignup from './hrsignup.jsx'
 import Hrotp from './hrotp.jsx'
 import Hrdashboard from './hrdashboard.jsx'
+import Info1 from './info1.jsx'
+import Info2 from './info2.jsx'
+import Info3 from './info3.jsx'
 
 const rout =createBrowserRouter([
   {
@@ -58,7 +61,20 @@ const rout =createBrowserRouter([
   {
     path : '/hrdashboard',
     element : <Hrdashboard />
+  },
+  {
+    path : '/info1',
+    element : <Info1 />
+  },
+  {
+    path : '/info2',
+    element : <Info2 />
+  },
+  {
+    path : '/info3',
+    element : <Info3 />
   }
+
 ])
 createRoot(document.getElementById('root')).render(
   <StrictMode>

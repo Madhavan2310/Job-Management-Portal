@@ -1,9 +1,9 @@
-import { Link } from "react-router-dom"
-function Profileinfo()
-{
-    return(
+import { Link } from "react-router-dom";
+
+function Info3(){
+    return (
         <>
-        <div className="page1">
+         <div className="page1">
            {/* <div className="container"> */}
                        <div className="box-1">
                            <h3>Personal Info</h3>
@@ -22,15 +22,6 @@ function Profileinfo()
                            <div className="data">
                                <p>Date of Birth</p>
                            <input type="date"  required />
-                           </div>
-                           <div className="data">
-                               <p>Gender</p>
-                           <select name="Gender" id="jobType">
-                            <option value="">Select Gender</option>
-                            <option value="Male">Male</option>
-                            <option value="Female">Female</option>
-                            <option value="other">Other</option>
-                            </select>
                            </div>
                             <div className="data">
                                <p>Location</p>
@@ -63,27 +54,17 @@ function Profileinfo()
                                <p>Prefered Location</p>
                            <input type="text" placeholder="Enter Your Location" required />
                            </div>
-                            <div className="data">
-                               <p>Prefered Job Type</p>
-                           <select >
-                            <option >Prefered Job Type</option>
-                            <option >Full Time</option>
-                            <option >Part Time</option>
-                            <option >Remote</option>
-                            </select>
-                           </div>
                            
                        </div>
                        <div>
-                <Link to='/'><button>Back</button></Link>
-                <Link to='/info1'><button>Next</button></Link>
+                <Link to='/info2'><button>Back</button></Link>
+                <Link to='/dashboard'><button>Save</button></Link>
                 </div>
                        
                    </div>
                 {/* </div> */}
-                
         </>
     )
 }
 
-export default Profileinfo
+export default Info3

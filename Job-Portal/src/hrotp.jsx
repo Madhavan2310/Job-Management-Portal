@@ -3,6 +3,7 @@ function Hrotp()
 {
     return(
     <div className="otp-container">
+        <h4>HR Page</h4>
         <div className="otpbox">
             <p className="hint">Enter the OTP</p>
         <div className="data">

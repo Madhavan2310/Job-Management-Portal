@@ -10,7 +10,7 @@ function Otpverification()
             <input type="number" required />
         </div>
         <div className="otp-btn">
-        <Link to='/'><button >Back</button></Link>
+        <Link to='/login'><button >Back</button></Link>
         <Link to='/dashboard'><button >Confirm</button></Link>
         </div>
         </div>

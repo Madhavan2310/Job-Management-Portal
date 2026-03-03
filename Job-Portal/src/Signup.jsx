@@ -3,9 +3,9 @@ function Signup()
 {
     return (
         <div className="container">
-            
+            <h4>User Page</h4>
             <div className="box">
-                <h3>Job Portal</h3>
+                <h3>NextHire</h3>
                 <div className="data">
                     <p>Username</p>
                 <input type="text" placeholder="Enter Your Name" required />

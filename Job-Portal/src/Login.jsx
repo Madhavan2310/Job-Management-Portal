@@ -3,8 +3,9 @@ function Login()
 {
     return(
         <div className="container">
+            <h4>User Page</h4>
         <div className="log-box">
-                <h3>Job Portal</h3>
+                <h3>NextHire</h3>
                 <div className="data">
                     <p>Email</p>
                 <input type="email" placeholder="Enter Your Email" required />
