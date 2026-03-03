@@ -1,36 +1,112 @@
+
+*{
+    padding: 0;
+    margin: 0;
+}
 .container{
     display: flex;
     justify-content: center;
     align-items: center;
    height: 100vh;
+   background-image: url("./assets/portal_login.png");
+   background-size: cover;
+  background-position: center;
+   
 }
 
+.data
+{
+    margin: 10px;
+    
+}
+
+.data p{
+    margin-left: 2px;
+    margin-bottom: 5px;
+}
+h3{
+    margin-bottom: 20px;  
+    font-size: 30px;
+}
 .box{
     display: flex;
     flex-direction: column;
-    row-gap: 50px;
+    justify-content: center;
+    align-items: center;
     border: solid 2px black;
-    padding: 30px;
+    height: 500px;
+    width: 400px;
     border-radius: 10px;
-    background-color: darkgrey;
+    background-color: #A9D8B3;
+    
 }
-
+.btn{
+    margin-top: 25px;
+}
 button{
     width: 100px;
     margin-left: 50px;
-    height: 50px;
+    height: 40px;
     border-radius: 10px;
-    background-color: steelblue;
+    background-color: #F7F9F2;
+    margin-bottom: 5px;
 }
-
-h3{
-    margin-left: 70px;
+.log-box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: solid 2px black;
+    height: 400px;
+    width: 400px;
+    border-radius: 10px;
+    background-color: #A9D8B3;
+    
 }
 
 input{
-    width: 200px;
+    width: 300px;
     height: 40px;
     border: solid 2px black;
-    border-radius: 10px;
+    border-radius: 20px;
+    
+    padding-left: 10px;
 }
+
+.hint{
+    text-align: center;
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+
+.otp-container{
+   display: flex;
+    justify-content: center;
+    align-items: center;
+   height: 100vh;
+   background-image: url("./assets/portal_login.png");
+   background-size: cover;
+  background-position: center;
+}
+
+.otpinp p{
+    text-align: center;
+}
+
+.otpbox{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: solid 2px black;
+    height: 300px;
+    width: 400px;
+    border-radius: 10px;
+    background-color: #A9D8B3;
+}
+
+.otp-btn{
+    display: flex;
+    margin-right: 45px;    
+} 
 

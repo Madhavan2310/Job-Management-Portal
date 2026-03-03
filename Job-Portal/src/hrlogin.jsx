@@ -1,15 +1,10 @@
-import {Link} from "react-router-dom"
-function Signup()
+import { Link } from "react-router-dom"
+function Hrlogin()
 {
-    return (
+    return(
         <div className="container">
-            
-            <div className="box">
+        <div className="log-box">
                 <h3>Job Portal</h3>
-                <div className="data">
-                    <p>Username</p>
-                <input type="text" placeholder="Enter Your Name" required />
-                </div>
                 <div className="data">
                     <p>Email</p>
                 <input type="email" placeholder="Enter Your Email" required />
@@ -19,13 +14,12 @@ function Signup()
                 <input type="password" placeholder="Enter Your Password" required />
                 </div>
                 <div className="btn">
-                <Link to='/otp'><button>Sign Up</button></Link>
-                <p>Alredy have an account? <Link to='/'><u>Sign In</u></Link> </p>
+                <Link to='/hrotp'><button>Sign In</button></Link>
+                <p>Don't have an account? <Link to='/hrsignup'><u>Sign Up</u></Link> </p>
                 </div>
             </div>
-            
-        </div>
-    );
+          </div>  
+    )
 }
 
-export default Signup
+export default Hrlogin
