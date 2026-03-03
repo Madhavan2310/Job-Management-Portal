@@ -1,0 +1,26 @@
+Requirements :
+
+Job Seeker :
+	
+	Sign up: username , password , email , otp verification
+	Profile update : Phone no , Resume , Role , Skill , Experience , Location , linked in account
+	
+Company Side:
+
+	Sign up : Company name , Mail address , verification  
+	Profile : HR information , Company info 
+	Post : Job offer
+	Post feature : count of applicants
+
+App management : 
+
+	1.Job seeker can see the post
+	2.Post management
+	3.Notification System
+	4.Multiple HR Accounts
+	5.Job Expiry Date
+	6.Applicant Management Dashboard
+	7.Application Status Tracking
+	8.Save Job (Wishlist Feature)
+	9.Search & Filter Jobs
+

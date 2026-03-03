@@ -1,0 +1,36 @@
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   height: 100vh;
+}
+
+.box{
+    display: flex;
+    flex-direction: column;
+    row-gap: 50px;
+    border: solid 2px black;
+    padding: 30px;
+    border-radius: 10px;
+    background-color: darkgrey;
+}
+
+button{
+    width: 100px;
+    margin-left: 50px;
+    height: 50px;
+    border-radius: 10px;
+    background-color: steelblue;
+}
+
+h3{
+    margin-left: 70px;
+}
+
+input{
+    width: 200px;
+    height: 40px;
+    border: solid 2px black;
+    border-radius: 10px;
+}
+
