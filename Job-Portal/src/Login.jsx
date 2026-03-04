@@ -3,8 +3,7 @@ function Login()
 {
     return(
         <div className="container">
-            <h4>User Page</h4>
-        <div className="log-box">
+        <form className="log-box">
                 <h3>NextHire</h3>
                 <div className="data">
                     <p>Email</p>
@@ -18,7 +17,7 @@ function Login()
                 <Link to='/otp'><button>Sign In</button></Link>
                 <p>Don't have an account? <Link to='/signup'><u>Sign Up</u></Link> </p>
                 </div>
-            </div>
+            </form>
           </div>  
     );
 }

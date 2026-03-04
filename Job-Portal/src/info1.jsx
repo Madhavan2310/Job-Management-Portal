@@ -59,7 +59,7 @@ function Info1()
                            
                        </div>
                        <div>
-                <Link to='/'><button>Back</button></Link>
+                <Link to='/profileinfo'><button>Back</button></Link>
                 <Link to='/info2'><button>Next</button></Link>
                 </div>
                        

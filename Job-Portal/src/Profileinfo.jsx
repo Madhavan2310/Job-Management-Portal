@@ -75,7 +75,7 @@ function Profileinfo()
                            
                        </div>
                        <div>
-                <Link to='/'><button>Back</button></Link>
+                <Link to='/dashboard'><button>Back</button></Link>
                 <Link to='/info1'><button>Next</button></Link>
                 </div>
                        
