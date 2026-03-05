@@ -9,11 +9,11 @@ function JobSeekerDashboard() {
       <div className="sidebar">
         <h2 className="logo">NextHire</h2>
         <ul>
-          <Link to='/jobseekerdashboard'><li>🏠 Dashboard</li></Link>
-          <Link to='/jobseekerprofile'><li>👤 Profile</li></Link>
-          <Link to='/appliedjobs'><li>📄 Applied Jobs</li></Link>
-         <Link to='/savedjobs'><li>⭐ Saved Jobs</li></Link>
-          <Link to='/jobseekerlogin'><li>🚪 Logout</li></Link>
+          <Link to='/jobseekerdashboard'><li>Dashboard</li></Link>
+          <Link to='/jobseekerprofile'><li>Profile</li></Link>
+          <Link to='/appliedjobs'><li> Applied Jobs</li></Link>
+         <Link to='/savedjobs'><li> Saved Jobs</li></Link>
+          <Link to='/jobseekerlogin'><li> Logout</li></Link>
         </ul>
       </div>
 
