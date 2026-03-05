@@ -1,0 +1,1200 @@
+/* Full Page Background */
+.home-container {
+  height: 100vh;
+  background: linear-gradient(to right, #4e73df, #1cc88a);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: white;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+/* Glass effect container */
+.overlay {
+  background: rgba(255, 255, 255, 0.1);
+  padding: 50px;
+  border-radius: 20px;
+  backdrop-filter: blur(10px);
+  width: 80%;
+  max-width: 900px;
+}
+
+/* Title */
+.title {
+  font-size: 3.5rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+  letter-spacing: 2px;
+}
+
+/* Subtitle */
+.subtitle {
+  font-size: 1.3rem;
+  margin-bottom: 40px;
+}
+
+/* Buttons Section */
+.home-buttons {
+  margin-bottom: 40px;
+}
+
+.home-buttons button {
+  padding: 12px 30px;
+  margin: 10px;
+  font-size: 1rem;
+  border-radius: 30px;
+  border: none;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+/* Primary Button */
+.primary-btn {
+  background-color: white;
+  color: #4e73df;
+  font-weight: bold;
+}
+
+.primary-btn:hover {
+  background-color: #f8f9fc;
+  transform: scale(1.05);
+}
+
+/* Secondary Button */
+.secondary-btn {
+  background-color: transparent;
+  border: 2px solid white;
+  color: white;
+  font-weight: bold;
+}
+
+.secondary-btn:hover {
+  background-color: white;
+  color: #1cc88a;
+  transform: scale(1.05);
+}
+
+/* Feature Cards */
+.features {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin-top: 20px;
+}
+
+.feature-card {
+  background: rgba(255, 255, 255, 0.15);
+  padding: 20px;
+  margin: 10px;
+  border-radius: 15px;
+  width: 250px;
+  transition: 0.3s ease;
+}
+
+.feature-card:hover {
+  transform: translateY(-8px);
+  background: rgba(255, 255, 255, 0.25);
+}
+/* Full page background */
+.login-page {
+  height: 100vh;
+  background: linear-gradient(to right, #4e73df, #1cc88a);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+/* Glassmorphism form */
+.form-container {
+  background: rgba(255, 255, 255, 0.15);
+  padding: 40px;
+  border-radius: 20px;
+  backdrop-filter: blur(10px);
+  width: 350px;
+  text-align: center;
+  color: white;
+}
+
+/* Title */
+.form-title {
+  margin-bottom: 10px;
+  font-size: 1.8rem;
+}
+
+.form-subtitle {
+  font-size: 0.9rem;
+  margin-bottom: 25px;
+  opacity: 0.9;
+}
+
+/* Input fields */
+.form-container input {
+  width: 100%;
+  padding: 12px;
+  margin: 10px 0;
+  border-radius: 30px;
+  border: none;
+  outline: none;
+  font-size: 0.9rem;
+}
+
+/* Full width button */
+.full-btn {
+  width: 100%;
+  margin-top: 15px;
+}
+
+/* Primary button */
+.primary-btn {
+  background-color: white;
+  color: #4e73df;
+  font-weight: bold;
+  padding: 12px;
+  border-radius: 30px;
+  border: none;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.primary-btn:hover {
+  transform: scale(1.05);
+  background-color: #f8f9fc;
+}
+
+/* Redirect text */
+.redirect-text {
+  margin-top: 20px;
+  font-size: 0.85rem;
+}
+
+/* Signup link */
+.link-style {
+  color: #fff;
+  font-weight: bold;
+  margin-left: 5px;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.link-style:hover {
+  text-decoration: underline;
+}
+/* Provider Background */
+.provider-login-page {
+  height: 100vh;
+  background: linear-gradient(to right, #141e30, #243b55);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+/* Glass Form */
+.provider-form-container {
+  background: rgba(255, 255, 255, 0.12);
+  padding: 40px;
+  border-radius: 20px;
+  backdrop-filter: blur(12px);
+  width: 350px;
+  text-align: center;
+  color: white;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+}
+
+/* Provider Button */
+.provider-btn {
+  background-color: #00c6ff;
+  color: white;
+  font-weight: bold;
+  padding: 12px;
+  border-radius: 30px;
+  border: none;
+  cursor: pointer;
+  transition: 0.3s ease;
+  width: 100%;
+  margin-top: 15px;
+}
+
+.provider-btn:hover {
+  background-color: #0072ff;
+  transform: scale(1.05);
+}
+
+/* Reuse existing styles */
+.full-btn {
+  width: 100%;
+}
+
+.provider-form-container input {
+  width: 100%;
+  padding: 12px;
+  margin: 10px 0;
+  border-radius: 30px;
+  border: none;
+  outline: none;
+  font-size: 0.9rem;
+}
+
+.redirect-text {
+  margin-top: 20px;
+  font-size: 0.85rem;
+}
+
+.link-style {
+  color: #00c6ff;
+  font-weight: bold;
+  margin-left: 5px;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.link-style:hover {
+  text-decoration: underline;
+}
+/* Dashboard Layout */
+.dashboard-wrapper {
+  display: flex;
+  height: 100vh;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+/* Sidebar */
+.sidebar {
+  width: 220px;
+  background: linear-gradient(to bottom, #4e73df, #224abe);
+  color: white;
+  padding: 20px;
+}
+
+.sidebar .logo {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.sidebar ul {
+  list-style: none;
+  padding: 0;
+}
+
+.sidebar ul li {
+  padding: 12px;
+  margin: 8px 0;
+  cursor: pointer;
+  border-radius: 8px;
+  transition: 0.3s;
+}
+
+.sidebar ul li:hover {
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+/* Main Content */
+.dashboard-container {
+  flex: 1;
+  padding: 40px;
+  background-color: #f8f9fc;
+}
+
+.dashboard-title {
+  margin-bottom: 30px;
+}
+
+/* Cards Section */
+.dashboard-cards {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.dashboard-card {
+  background: white;
+  padding: 25px;
+  border-radius: 15px;
+  width: 280px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+  transition: 0.3s;
+}
+
+.dashboard-card:hover {
+  transform: translateY(-8px);
+}
+
+.card-btn {
+  margin-top: 15px;
+  padding: 8px 18px;
+  border: none;
+  border-radius: 20px;
+  background: #4e73df;
+  color: white;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.card-btn:hover {
+  background: #2e59d9;
+}
+/* Provider Dashboard Layout */
+.provider-dashboard-wrapper {
+  display: flex;
+  height: 100vh;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+/* Sidebar */
+.provider-sidebar {
+  width: 230px;
+  background: linear-gradient(to bottom, #141e30, #243b55);
+  color: white;
+  padding: 20px;
+}
+
+.provider-logo {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.provider-sidebar ul {
+  list-style: none;
+  padding: 0;
+}
+
+.provider-sidebar ul li {
+  padding: 12px;
+  margin: 8px 0;
+  cursor: pointer;
+  border-radius: 8px;
+  transition: 0.3s;
+}
+
+.provider-sidebar ul li:hover {
+  background-color: rgba(255, 255, 255, 0.15);
+}
+
+/* Main Content */
+.provider-dashboard-container {
+  flex: 1;
+  padding: 40px;
+  background-color: #f4f6f9;
+}
+
+.provider-title {
+  margin-bottom: 30px;
+}
+
+/* Cards */
+.provider-cards {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.provider-card {
+  background: white;
+  padding: 25px;
+  border-radius: 15px;
+  width: 280px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+  transition: 0.3s;
+}
+
+.provider-card:hover {
+  transform: translateY(-8px);
+}
+
+.provider-card-btn {
+  margin-top: 15px;
+  padding: 8px 18px;
+  border: none;
+  border-radius: 20px;
+  background: #243b55;
+  color: white;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.provider-card-btn:hover {
+  background: #141e30;
+}
+
+
+/* Post Job Main Container */
+.postjob-container {
+  flex: 1;
+  padding: 40px;
+  background-color: #f4f6f9;
+}
+
+/* Form Layout */
+.postjob-form {
+  background: white;
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+/* Form Group */
+.form-group {
+  display: flex;
+  flex-direction: column;
+  width: 48%;
+}
+
+.form-group label {
+  margin-bottom: 6px;
+  font-weight: 600;
+}
+
+.form-group input,
+.form-group select,
+.form-group textarea {
+  padding: 10px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  outline: none;
+  font-size: 0.9rem;
+  transition: 0.3s;
+}
+
+.form-group input:focus,
+.form-group select:focus,
+.form-group textarea:focus {
+  border-color: #243b55;
+  box-shadow: 0 0 5px rgba(36, 59, 85, 0.4);
+}
+
+/* Textarea full width */
+.full-width {
+  width: 100%;
+}
+
+textarea {
+  resize: none;
+  height: 120px;
+}
+
+/* Submit Button */
+.submit-btn {
+  margin-top: 20px;
+  padding: 10px 25px;
+  border-radius: 25px;
+  align-self: flex-start;
+}
+
+
+/* Manage Job Page */
+.managejob-container {
+  flex: 1;
+  padding: 40px;
+  background-color: #f4f6f9;
+}
+
+/* Job Table Container */
+.job-table {
+  margin-top: 20px;
+}
+
+/* Each Job Row */
+.job-row {
+  background: white;
+  padding: 20px;
+  margin-bottom: 15px;
+  border-radius: 12px;
+  box-shadow: 0 5px 12px rgba(0,0,0,0.08);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  transition: 0.3s;
+}
+
+.job-row:hover {
+  transform: translateY(-5px);
+}
+
+/* Job Info */
+.job-info h3 {
+  margin-bottom: 5px;
+}
+
+.job-info p {
+  color: gray;
+  font-size: 0.9rem;
+}
+
+/* Status Badge */
+.status {
+  display: inline-block;
+  margin-top: 8px;
+  padding: 4px 12px;
+  border-radius: 15px;
+  font-size: 0.8rem;
+  font-weight: bold;
+}
+
+.status.active {
+  background-color: #d4edda;
+  color: #155724;
+}
+
+.status.closed {
+  background-color: #f8d7da;
+  color: #721c24;
+}
+
+/* Buttons */
+.job-actions button {
+  margin-left: 10px;
+  padding: 6px 15px;
+  border-radius: 20px;
+  border: none;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.edit-btn {
+  background-color: #243b55;
+  color: white;
+}
+
+.edit-btn:hover {
+  background-color: #141e30;
+}
+
+.delete-btn {
+  background-color: #dc3545;
+  color: white;
+}
+
+.delete-btn:hover {
+  background-color: #b02a37;
+}
+
+
+/* Applicants Page */
+.applicants-container {
+  flex: 1;
+  padding: 40px;
+  background-color: #f4f6f9;
+}
+
+/* Applicant Card */
+.applicant-card {
+  background: white;
+  padding: 20px;
+  margin-bottom: 15px;
+  border-radius: 12px;
+  box-shadow: 0 5px 12px rgba(0,0,0,0.08);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  transition: 0.3s;
+}
+
+.applicant-card:hover {
+  transform: translateY(-5px);
+}
+
+/* Info */
+.applicant-info h3 {
+  margin-bottom: 5px;
+}
+
+.applicant-info p {
+  font-size: 0.9rem;
+  color: gray;
+}
+
+/* Status Variations */
+.status.new {
+  background-color: #fff3cd;
+  color: #856404;
+}
+
+.status.shortlisted {
+  background-color: #d4edda;
+  color: #155724;
+}
+
+.status.rejected {
+  background-color: #f8d7da;
+  color: #721c24;
+}
+
+/* Buttons */
+.applicant-actions button {
+  margin-left: 10px;
+  padding: 6px 15px;
+  border-radius: 20px;
+  border: none;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.shortlist-btn {
+  background-color: #28a745;
+  color: white;
+}
+
+.shortlist-btn:hover {
+  background-color: #1e7e34;
+}
+
+.reject-btn {
+  background-color: #dc3545;
+  color: white;
+}
+
+.reject-btn:hover {
+  background-color: #b02a37;
+}
+
+/* Remove default link styling */
+.sidebar a,
+.provider-sidebar a {
+  text-decoration: none;   /* remove underline */
+  color: white;            /* set normal color */
+  display: block;          /* make full clickable */
+}
+
+/* Prevent purple visited color */
+.sidebar a:visited,
+.provider-sidebar a:visited {
+  color: white;
+}
+
+/* Hover effect */
+.sidebar a:hover,
+.provider-sidebar a:hover {
+  background-color: rgba(255, 255, 255, 0.2);
+  border-radius: 8px;
+}
+
+/* ===== Provider Signup Page Background ===== */
+.provider-signup-page {
+  height: 100vh;
+  background: linear-gradient(to right, #141e30, #243b55);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+/* ===== Signup Form Container ===== */
+.provider-signup-container {
+  background: rgba(255, 255, 255, 0.12);
+  backdrop-filter: blur(12px);
+  padding: 40px;
+  border-radius: 20px;
+  width: 400px;
+  text-align: center;
+  color: white;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.25);
+}
+
+/* ===== Title ===== */
+.provider-signup-container h2 {
+  margin-bottom: 10px;
+  font-size: 1.8rem;
+}
+
+.provider-signup-subtitle {
+  font-size: 0.9rem;
+  margin-bottom: 25px;
+  opacity: 0.9;
+}
+
+/* ===== Input Fields ===== */
+.provider-signup-container input {
+  width: 100%;
+  padding: 12px;
+  margin: 10px 0;
+  border-radius: 30px;
+  border: none;
+  outline: none;
+  font-size: 0.9rem;
+}
+
+/* Focus Effect */
+.provider-signup-container input:focus {
+  box-shadow: 0 0 6px rgba(0, 198, 255, 0.6);
+}
+
+/* ===== Signup Button ===== */
+.provider-signup-btn {
+  width: 100%;
+  padding: 12px;
+  margin-top: 15px;
+  border-radius: 30px;
+  border: none;
+  background: #00c6ff;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.provider-signup-btn:hover {
+  background: #0072ff;
+  transform: scale(1.05);
+}
+
+/* ===== Redirect Text ===== */
+.provider-redirect-text {
+  margin-top: 20px;
+  font-size: 0.85rem;
+}
+
+.provider-link-style {
+  color: #00c6ff;
+  font-weight: bold;
+  text-decoration: none;
+  margin-left: 5px;
+}
+
+.provider-link-style:hover {
+  text-decoration: underline;
+}
+
+/* ===== Job Seeker Signup Page ===== */
+.seeker-signup-page {
+  height: 100vh;
+  background: linear-gradient(to right, #4e73df, #1cc88a);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+/* ===== Signup Container ===== */
+.seeker-signup-container {
+  background: rgba(255, 255, 255, 0.15);
+  backdrop-filter: blur(12px);
+  padding: 40px;
+  border-radius: 20px;
+  width: 400px;
+  text-align: center;
+  color: white;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.25);
+}
+
+/* ===== Title ===== */
+.seeker-signup-container h2 {
+  margin-bottom: 10px;
+  font-size: 1.8rem;
+}
+
+.seeker-signup-subtitle {
+  font-size: 0.9rem;
+  margin-bottom: 25px;
+  opacity: 0.9;
+}
+
+/* ===== Input Fields ===== */
+.seeker-signup-container input,
+.seeker-signup-container select {
+  width: 100%;
+  padding: 12px;
+  margin: 10px 0;
+  border-radius: 30px;
+  border: none;
+  outline: none;
+  font-size: 0.9rem;
+}
+
+/* Focus Effect */
+.seeker-signup-container input:focus,
+.seeker-signup-container select:focus {
+  box-shadow: 0 0 6px rgba(255, 255, 255, 0.8);
+}
+
+/* ===== Signup Button ===== */
+.seeker-signup-btn {
+  width: 100%;
+  padding: 12px;
+  margin-top: 15px;
+  border-radius: 30px;
+  border: none;
+  background: white;
+  color: #4e73df;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.seeker-signup-btn:hover {
+  transform: scale(1.05);
+  background: #f8f9fc;
+}
+
+/* ===== Redirect Text ===== */
+.seeker-redirect-text {
+  margin-top: 20px;
+  font-size: 0.85rem;
+}
+
+.seeker-link-style {
+  color: white;
+  font-weight: bold;
+  text-decoration: none;
+  margin-left: 5px;
+}
+
+.seeker-link-style:hover {
+  text-decoration: underline;
+}
+
+
+/* ===== Profile Page ===== */
+.profile-container {
+  flex: 1;
+  padding: 40px;
+  background-color: #f8f9fc;
+}
+
+/* Profile Card */
+.profile-card {
+  background: white;
+  padding: 30px;
+  border-radius: 15px;
+  display: flex;
+  gap: 30px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+/* Left Section */
+.profile-left {
+  text-align: center;
+}
+
+.profile-image {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 10px;
+}
+
+.upload-btn {
+  padding: 6px 15px;
+  border: none;
+  border-radius: 20px;
+  background: #4e73df;
+  color: white;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.upload-btn:hover {
+  background: #2e59d9;
+}
+
+/* Right Section */
+.profile-right {
+  flex: 1;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+/* Input Groups */
+.profile-group {
+  display: flex;
+  flex-direction: column;
+  width: 48%;
+}
+
+.profile-group label {
+  margin-bottom: 5px;
+  font-weight: 600;
+}
+
+.profile-group input,
+.profile-group textarea {
+  padding: 10px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  outline: none;
+  font-size: 0.9rem;
+  transition: 0.3s;
+}
+
+.profile-group input:focus,
+.profile-group textarea:focus {
+  border-color: #4e73df;
+  box-shadow: 0 0 5px rgba(78, 115, 223, 0.4);
+}
+
+textarea {
+  resize: none;
+  height: 100px;
+}
+
+.full-width {
+  width: 100%;
+}
+
+/* Save Button */
+.save-profile-btn {
+  margin-top: 15px;
+  padding: 10px 25px;
+  border-radius: 25px;
+  border: none;
+  background: #4e73df;
+  color: white;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.save-profile-btn:hover {
+  background: #2e59d9;
+}
+
+/* ===== Applied Jobs Page ===== */
+.appliedjobs-container {
+  flex: 1;
+  padding: 40px;
+  background-color: #f8f9fc;
+}
+
+/* Job Card */
+.applied-job-card {
+  background: white;
+  padding: 20px;
+  margin-bottom: 15px;
+  border-radius: 12px;
+  box-shadow: 0 5px 12px rgba(0,0,0,0.08);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  transition: 0.3s;
+}
+
+.applied-job-card:hover {
+  transform: translateY(-5px);
+}
+
+/* Job Details */
+.job-details h3 {
+  margin-bottom: 5px;
+}
+
+.job-details p {
+  color: gray;
+  font-size: 0.9rem;
+}
+
+/* Application Status */
+.application-status {
+  display: inline-block;
+  margin-top: 8px;
+  padding: 4px 12px;
+  border-radius: 15px;
+  font-size: 0.8rem;
+  font-weight: bold;
+}
+
+.application-status.pending {
+  background-color: #fff3cd;
+  color: #856404;
+}
+
+.application-status.selected {
+  background-color: #d4edda;
+  color: #155724;
+}
+
+.application-status.rejected {
+  background-color: #f8d7da;
+  color: #721c24;
+}
+
+/* Buttons */
+.view-btn {
+  background-color: #4e73df;
+  color: white;
+  border: none;
+  padding: 6px 15px;
+  border-radius: 20px;
+  cursor: pointer;
+  margin-right: 10px;
+  transition: 0.3s;
+}
+
+.view-btn:hover {
+  background-color: #2e59d9;
+}
+
+.withdraw-btn {
+  background-color: #dc3545;
+  color: white;
+  border: none;
+  padding: 6px 15px;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.withdraw-btn:hover {
+  background-color: #b02a37;
+}
+
+/* ===== Saved Jobs Page ===== */
+.savedjobs-container {
+  flex: 1;
+  padding: 40px;
+  background-color: #f8f9fc;
+}
+
+/* Job Card */
+.saved-job-card {
+  background: white;
+  padding: 20px;
+  margin-bottom: 15px;
+  border-radius: 12px;
+  box-shadow: 0 5px 12px rgba(0,0,0,0.08);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  transition: 0.3s;
+}
+
+.saved-job-card:hover {
+  transform: translateY(-5px);
+}
+
+/* Job Details */
+.saved-job-details h3 {
+  margin-bottom: 5px;
+}
+
+.saved-job-details p {
+  color: gray;
+  font-size: 0.9rem;
+}
+
+/* Saved Badge */
+.saved-badge {
+  display: inline-block;
+  margin-top: 8px;
+  padding: 4px 12px;
+  border-radius: 15px;
+  font-size: 0.8rem;
+  font-weight: bold;
+  background-color: #e2e6ea;
+  color: #333;
+}
+
+/* Buttons */
+.apply-btn {
+  background-color: #4e73df;
+  color: white;
+  border: none;
+  padding: 6px 15px;
+  border-radius: 20px;
+  cursor: pointer;
+  margin-right: 10px;
+  transition: 0.3s;
+}
+
+.apply-btn:hover {
+  background-color: #2e59d9;
+}
+
+.remove-btn {
+  background-color: #dc3545;
+  color: white;
+  border: none;
+  padding: 6px 15px;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.remove-btn:hover {
+  background-color: #b02a37;
+}
+
+
+/* ===== Apply Now Page ===== */
+.apply-container {
+  flex: 1;
+  padding: 40px;
+  background-color: #f8f9fc;
+}
+
+.job-info-box {
+  background: white;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 5px 12px rgba(0,0,0,0.08);
+  margin-bottom: 20px;
+}
+
+.job-info-box h3 {
+  margin-bottom: 5px;
+}
+
+.apply-form {
+  background: white;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 5px 12px rgba(0,0,0,0.08);
+  display: flex;
+  flex-direction: column;
+}
+
+.apply-form label {
+  margin-top: 15px;
+  font-weight: 600;
+}
+
+.apply-form input,
+.apply-form textarea {
+  margin-top: 5px;
+  padding: 10px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  font-size: 0.9rem;
+}
+
+.apply-form input:focus,
+.apply-form textarea:focus {
+  outline: none;
+  border-color: #4e73df;
+}
+
+.submit-application-btn {
+  margin-top: 20px;
+  padding: 10px;
+  border-radius: 25px;
+  border: none;
+  background-color: #4e73df;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s;
+  width: 200px;
+}
+
+.submit-application-btn:hover {
+  background-color: #2e59d9;
+}
+
+.save-btn {
+  background-color: green;
+  color: white;
+  border: none;
+  padding: 6px 15px;
+  border-radius: 20px;
+  cursor: pointer;
+  margin-right: 10px;
+  transition: 0.3s;
+}
+
+.save-btn:hover {
+  opacity: 0.8;
+}

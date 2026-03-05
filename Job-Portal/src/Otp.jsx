@@ -1,23 +1,14 @@
-import { Link } from "react-router-dom"
-function Otpverification()
-{
-    return(
-    <div className="otp-container">
-        <div className="otpbox">
-            <p className="hint">Enter the OTP</p>
-        <div className="data">
-            
-            <input type="number" required />
-        </div>
-        <div className="otp-btn">
-        <Link to='/login'><button >Back</button></Link>
-        <Link to='/dashboard'><button >Confirm</button></Link>
-        </div>
-        </div>
-        
+import "./App.css";
+
+function OTP() {
+  return (
+    <div className="form-container">
+      <h2>Enter OTP</h2>
+
+      <input type="text" placeholder="Enter 6-digit OTP" />
+      <button className="primary-btn">Verify</button>
     </div>
-    )
-    
+  );
 }
 
-export default Otpverification
+export default OTP;
