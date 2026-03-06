@@ -4,7 +4,6 @@ function JobProviderDashboard() {
   return (
     <div className="provider-dashboard-wrapper">
 
-      {/* Sidebar */}
       <div className="provider-sidebar">
         <h2 className="provider-logo">NextHire</h2>
         <ul>
@@ -16,7 +15,6 @@ function JobProviderDashboard() {
         </ul>
       </div>
 
-      {/* Main Content */}
       <div className="provider-dashboard-container">
         <h2 className="provider-title">JobProvider Dashboard</h2>
 

@@ -22,17 +22,17 @@ function Home() {
 
         <div className="features">
           <div className="feature-card">
-            <h3>🚀 Fast Hiring</h3>
+            <h3>Fast Hiring</h3>
             <p>Connect with employers instantly and apply in one click.</p>
           </div>
 
           <div className="feature-card">
-            <h3>💼 Verified Jobs</h3>
+            <h3>Verified Jobs</h3>
             <p>Trusted companies with high package opportunities.</p>
           </div>
 
           <div className="feature-card">
-            <h3>🌍 Remote Friendly</h3>
+            <h3>Remote Friendly</h3>
             <p>Find work-from-home and flexible job options.</p>
           </div>
         </div>

@@ -1,6 +1,30 @@
+
+
+import { useState,useEffect } from "react";
 import "./App.css";
 import { Link } from "react-router-dom";
+
 function ManageJob() {
+
+  useEffect(() => {
+  fetch("http://localhost:8080/api/getpostjob")
+    .then(response => response.json())
+    .then(data => {
+      setJobs(data);
+    })
+    .catch(error => {
+      console.error("Error fetching jobs:", error);
+    });
+}, []);
+  // Sample Job Data (Later you can fetch from backend)
+  const [jobs, setJobs] = useState([]);
+
+  // Delete Job Function
+  const deleteJob = (id) => {
+    const updatedJobs = jobs.filter(job => job.id !== id);
+    setJobs(updatedJobs);
+  };
+
   return (
     <div className="provider-dashboard-wrapper">
 
@@ -8,47 +32,54 @@ function ManageJob() {
       <div className="provider-sidebar">
         <h2 className="provider-logo">NextHire</h2>
         <ul>
-          <Link to='/jobproviderdashboard'><li>🏠 Dashboard</li></Link>
-          <Link to='/postjob'><li>➕ Post Job</li></Link>
-          <Link to='/managejob'><li>📋 Manage Jobs</li></Link>
-         <Link to='/applicants'> <li>👥 Applicants</li></Link>
-          <Link to='/jobproviderlogin'><li>🚪 Logout</li></Link>
+          <Link to="/jobproviderdashboard"><li>Dashboard</li></Link>
+          <Link to="/postjob"><li>Post Job</li></Link>
+          <Link to="/managejob"><li>Manage Jobs</li></Link>
+          <Link to="/applicants"><li>Applicants</li></Link>
+          <Link to="/jobproviderlogin"><li>Logout</li></Link>
         </ul>
       </div>
 
       {/* Main Content */}
       <div className="managejob-container">
-        <h2 className="provider-title">Manage Job Posts 📋</h2>
+        <h2 className="provider-title">Manage Job Posts</h2>
 
         <div className="job-table">
 
-          {/* Example Job 1 */}
-          <div className="job-row">
-            <div className="job-info">
-              <h3>Frontend Developer</h3>
-              <p>Chennai | Full Time</p>
-              <span className="status active">Active</span>
-            </div>
+          {jobs.length === 0 ? (
+            <p>No jobs posted yet.</p>
+          ) : (
+            jobs.map((job) => (
+              <div className="job-row" key={job.id}>
 
-            <div className="job-actions">
-              <button className="edit-btn">Edit</button>
-              <button className="delete-btn">Delete</button>
-            </div>
-          </div>
+                <div className="job-info">
+                  <h3>{job.jobtitle}</h3>
+                  <p>{job.location} | {job.jobtype}</p>
 
-          {/* Example Job 2 */}
-          <div className="job-row">
-            <div className="job-info">
-              <h3>Backend Developer</h3>
-              <p>Remote | Internship</p>
-              <span className="status closed">Closed</span>
-            </div>
+                  <p className="salary">
+                     Salary: ₹{job.minSalary} - ₹{job.maxSalary}
+                  </p>
 
-            <div className="job-actions">
-              <button className="edit-btn">Edit</button>
-              <button className="delete-btn">Delete</button>
-            </div>
-          </div>
+                  <span 
+                    // className={`status ${job.status === "Active" ? "active" : "closed"}`}
+                  >
+                    {"active"}
+                  </span>
+                </div>
+
+                <div className="job-actions">
+                  
+                  <button 
+                    className="delete-btn"
+                    onClick={() => deleteJob(job.id)}
+                  >
+                    Delete
+                  </button>
+                </div>
+
+              </div>
+            ))
+          )}
 
         </div>
       </div>

@@ -16,6 +16,7 @@ import JobSeekerProfile from "./JobSeekerProfile";
 import AppliedJobs from "./AppliedJobs";
 import SavedJobs from "./SavedJobs";
 import Jobapply from "./Jobapply";
+import ProfileInformation from "./ProfileInformation";
 
 function App() {
   return (
@@ -35,7 +36,9 @@ function App() {
       <Route path="/jobseekerprofile" element={<JobSeekerProfile />}></Route>
       <Route path="/appliedjobs" element={<AppliedJobs />}></Route>
       <Route path="/savedjobs" element={<SavedJobs />}></Route>
-      <Route path="/jobapply" element={<Jobapply />}></Route>
+      {/* <Route path="/jobapply" element={<Jobapply />}></Route> */}
+      <Route path="/jobapply/:id" element={<Jobapply />} />
+      <Route path="/profileinformation" element={<ProfileInformation />}></Route>
     </Routes>
   );
 }

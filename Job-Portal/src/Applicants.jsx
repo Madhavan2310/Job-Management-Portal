@@ -3,22 +3,18 @@ import { Link } from "react-router-dom";
 function Applicants() {
   return (
     <div className="provider-dashboard-wrapper">
-
-      {/* Sidebar */}
       <div className="provider-sidebar">
         <h2 className="provider-logo">NextHire</h2>
         <ul>
-          <Link to='/jobproviderdashboard'><li>🏠 Dashboard</li></Link>
-          <Link to='/postjob'><li>➕ Post Job</li></Link>
-          <Link to='/managejob'><li>📋 Manage Jobs</li></Link>
-         <Link to='/applicants'> <li>👥 Applicants</li></Link>
-          <Link to='/jobproviderlogin'><li>🚪 Logout</li></Link>
+          <Link to='/jobproviderdashboard'><li>Dashboard</li></Link>
+          <Link to='/postjob'><li>Post Job</li></Link>
+          <Link to='/managejob'><li>Manage Jobs</li></Link>
+         <Link to='/applicants'> <li>Applicants</li></Link>
+          <Link to='/jobproviderlogin'><li>Logout</li></Link>
         </ul>
       </div>
-
-      {/* Main Content */}
       <div className="applicants-container">
-        <h2 className="provider-title">Job Applicants 👥</h2>
+        <h2 className="provider-title">Job Applicants</h2>
 
         <div className="applicant-card">
 
